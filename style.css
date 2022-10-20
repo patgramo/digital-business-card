@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+p {
+  font-size: 11px;
+  line-height: 1.5em;
+}
+.container {
+  border-radius: 20px;
+  margin: 50px;
+  background-color: #1a1b21;
+}
+img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.info {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+h1 {
+  color: white;
+  margin-bottom: 0;
+}
+.job-title {
+  color: #f3bf99;
+  margin-top: 0.5em;
+}
+.website {
+  color: white;
+  margin: 0 0 2em 0;
+  font-size: 11px;
+}
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.email-button {
+  margin-right: 10px;
+  width: 35%;
+  border-radius: 5px;
+  padding: 0.5em;
+  background-color: white;
+  text-align: center;
+  color: #374151;
+}
+.linkedin-button {
+  margin-left: 10px;
+  width: 35%;
+  border-radius: 5px;
+  padding: 0.5em;
+  background-color: #5093e2;
+  color: white;
+  text-align: center;
+}
+i {
+  padding-right: 0.5em;
+}
+a {
+  text-decoration: none;
+}
+.about {
+  color: white;
+  padding: 1em 2em 0 2em;
+}
+.interests {
+  color: white;
+  padding: 0 2em 2em 2em;
+}
+footer {
+  background-color: #161619;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer a i {
+  color: #918e98;
+  font-size: 25px;
+  padding: 0.7em;
+}
+@media all and (min-width: 700px) {
+  .container {
+    margin: 4em 10em;
+  }
+}
+@media all and (min-width: 1000px) {
+  .container {
+    margin: 4em 20em;
+  }
+}
